@@ -7,7 +7,7 @@ int main (void)
     double scaling_factor, ingredient_amount, cost_per_kg , vat, total, total_ingredient, serving = 8.00, cost;
 
 
-    printf("Enter number of guests: ");
+    printf("Enter number of goosts: ");
     scanf("%d",&guest);
 
       scaling_factor = (double)(guest / serving);   /*calculates total serving of dish needed*/
